@@ -6,9 +6,9 @@ utilizzo:
 
 guida alla sintassi:
 
-guida markdown:https://www.markdownguide.org/
-sintassi dot: https://graphviz.org/doc/info/lang.html
-sintassi asciimath:http://asciimath.org/
+guida markdown:https://www.markdownguide.org/  
+sintassi dot: https://graphviz.org/doc/info/lang.html  
+sintassi asciimath:http://asciimath.org/  
 
 nota: per utilizzare sia dot che asciimath bisogna racchiudere il codice tra due simboli delimitatori come mostrato sotto.
 
