@@ -1,4 +1,4 @@
-# e-gualaizer: un editor consiviso live markdown+asciimath+graviz
+# e-gualaizer: un editor condiviso live markdown+asciimath+graviz
 utilizzo:
 1. un utente si connette e passa il link di connessione all'altro 
 2. l'altro utente si connette tramite il link
