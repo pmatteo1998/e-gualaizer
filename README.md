@@ -10,6 +10,11 @@ guida markdown:https://www.markdownguide.org/
 sintassi dot: https://graphviz.org/doc/info/lang.html  
 sintassi asciimath:http://asciimath.org/  
 
+cosa si puo' fare:  
+* scrivere del testo formattato (con markdown)
+* scrivere formule matematiche(con asciimath)
+* disegnare grafi tramite testo(con dot/graphviz)
+
 nota: per utilizzare sia dot che asciimath bisogna racchiudere il codice tra due simboli delimitatori come mostrato sotto.
 
 come utilizzare i grafi diretti:
