@@ -17,6 +17,7 @@ come utilizzare i grafi diretti:
 dg{
 a->b;
 }dg
+
 come utilizzare i grafi non diretti:
 
 gg{
