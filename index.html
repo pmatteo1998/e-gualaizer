@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            button{
+                height: 5vh;
+                width: 50vw;
+                padding: 0;
+                margin:0;
+                border: 0;
+            }
+        textarea{
+            height: 95vh;
+            width: 100vw;
+            padding:1vw;
+            font-size: 20px;
+            
+        }
+        #target{
+            height: 95vh;
+            width: 100vw;
+            padding: 1vw;
+            font-size: 20px;
+        }
+        .bar{
+            display: flex;
+                flex-wrap: nowrap;
+        }
+        html,body{margin:0}
+        </style>
+    
+    </head>
+    <body>
+
+
+        <div class="bar">
+           <div  style="display: none;" id="on" >
+           <button id="view" onclick="visualizza()">visualizza</button>
+           <button id="text" onclick="scrivi()">scrivi</button>
+           </div>
+           <button id="link" >aspetta.... </button>
+        </div>
+    <textarea id="scrivi" oninput="render_send()" ></textarea>
+    <div style="display: none;" id="target">
+
+$1+1 e^x$
+    </div>
+
+
+
+
+    <script>
+        MathJax = {
+          loader: {load: ['input/asciimath', 'output/chtml']},
+          asciimath: {
+delimiters: [['$','$'], ['`','`']]
+}
+        };
+        </script>
+       <script src="peerjs.min.js"></script>
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="viz.js"></script>
+<script src="full.render.js"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
