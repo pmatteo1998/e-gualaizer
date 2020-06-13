@@ -30,7 +30,6 @@ function rander_page(txt){
     dg_arr.forEach((element,i) => {
        txt= txt.replace(element,"<div id='dg"+i+"'></div>");
     });
-    console.log(txt)
     toggle[0].innerHTML=marked(txt);
     MathJax.typeset()
     if(dg_arr != null && dg_arr!=prev_dg_arr){
