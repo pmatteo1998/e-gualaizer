@@ -71,7 +71,7 @@ function rander_page(txt){
 function render_send(){
 var txt=toggle[1].value;
 rander_page(txt);
-if(hash=="")conn.send(toggle[1].value);
+conn.send(toggle[1].value);
 }
 
 async function copyPageUrl(a) {
@@ -100,6 +100,7 @@ function unlock(id_){
     document.getElementById("link").onclick=copylink;
 peer.on('connection', function(conn_) {
   conn=conn_;
+  conn.on('data',propagate);
        document.getElementById("link").style.display="none";
 document.getElementById("on").style.display="flex";});
   //  setInterval(check_connection,100);
