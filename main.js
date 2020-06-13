@@ -89,7 +89,6 @@ function copylink(){
 }
 
 function propagate(data){
-    console.log(data);
     rander_page(data);
     toggle[1].value=data;
 }
